@@ -5,3 +5,6 @@
 *.csproj
 *.asset
 /UserSettings
+.vsconfig
+/.vs
+/obj
