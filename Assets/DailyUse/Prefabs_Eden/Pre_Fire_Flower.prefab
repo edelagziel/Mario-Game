@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1058600684025772713}
   - component: {fileID: 5147719187168792987}
   - component: {fileID: 1211087328572801015}
+  - component: {fileID: -3256172160277414890}
   m_Layer: 0
   m_Name: Pre_Fire_Flower
   m_TagString: Untagged
@@ -241,5 +242,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89b2c84416e1ee748a06c3dc08c501f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-3256172160277414890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2758894853546935163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81c13342ef3c24a4495ea4dfec557a47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

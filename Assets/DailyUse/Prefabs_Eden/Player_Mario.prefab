@@ -90,6 +90,10 @@ GameObject:
   - component: {fileID: 1714300672016486731}
   - component: {fileID: 8910461810621121594}
   - component: {fileID: 3158859840697154204}
+  - component: {fileID: 6650469976124838082}
+  - component: {fileID: 6286531476434790057}
+  - component: {fileID: 1633882945450224904}
+  - component: {fileID: 170920738284446216}
   m_Layer: 0
   m_Name: Player_Mario
   m_TagString: Player
@@ -275,5 +279,50 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 96a876ed6c9bd724cb8e24d11fb4b02b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6650469976124838082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8804788098413360268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed12451f250343b4991c6d3b8af1b7c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!81 &6286531476434790057
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8804788098413360268}
+  m_Enabled: 1
+--- !u!114 &1633882945450224904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8804788098413360268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71ae44911c84b6c4087a61e0b4bbc955, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _HealtText: {fileID: 0}
+--- !u!114 &170920738284446216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8804788098413360268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 592a45accf547cc42899bd7d64ede969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

@@ -14,6 +14,7 @@ public class Spike : MonoBehaviour
             if (Temp!=null)
             {
                 Temp.ResetPosi();
+                
             }
         }
     }

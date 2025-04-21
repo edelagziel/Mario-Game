@@ -13,7 +13,6 @@ public class ResetPos : MonoBehaviour
     }
     public void ResetPosi()
     {
-        Debug.Log("SpikeHappen");
         gameObject.transform.position = Player_Start_Pos;
     }
 }

@@ -5,7 +5,7 @@ using TMPro;
 using Unity.VisualScripting;
 
 
-public class GoldCoinScore :MonoBehaviour, Iscore
+public class GoldCoinScore :MonoBehaviour, Iscore,Ireset
 {
     // Start is called before the first frame update
    [SerializeField] public TextMeshProUGUI _scoreText;
@@ -31,6 +31,12 @@ public class GoldCoinScore :MonoBehaviour, Iscore
     public void DecressScore()
     {
         CoinsAmount--;
+        _scoreText.text = "Score : " + CoinsAmount;
+    }
+
+    public void ResetObject()
+    {
+        CoinsAmount=0;
         _scoreText.text = "Score : " + CoinsAmount;
     }
 }
